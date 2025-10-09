@@ -15,9 +15,11 @@ dest_files=["res://.godot/imported/cloning_tank.glb-0757abcea8ef4028563baf4293a2
 
 nodes/root_type=""
 nodes/root_name=""
+nodes/root_script=null
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
 nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
@@ -32,23 +34,30 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
 _subresources={
 "materials": {
 "Material": {
 "use_external/enabled": true,
-"use_external/path": "res://assets/background_objects.material"
+"use_external/fallback_path": "res://assets/background_objects.material",
+"use_external/path": "uid://dy20h6wfa46iv"
 },
 "character-mat": {
 "use_external/enabled": true,
-"use_external/path": "res://characters/player/CharacterSkins/character-mat.tres"
+"use_external/fallback_path": "res://characters/player/CharacterSkins/character-mat.tres",
+"use_external/path": "uid://f23ee6ibiu6w"
 },
 "glass": {
 "use_external/enabled": true,
-"use_external/path": "res://assets/objects/laboratory/glass_shader.tres"
+"use_external/fallback_path": "res://assets/objects/laboratory/glass_shader.tres",
+"use_external/path": "uid://b6w6w3c51x1q8"
 },
 "liquid": {
 "use_external/enabled": true,
-"use_external/path": "res://assets/objects/laboratory/liquid.tres"
+"use_external/fallback_path": "res://assets/objects/laboratory/liquid.tres",
+"use_external/path": "uid://cugi721l774ox"
 }
 },
 "nodes": {
